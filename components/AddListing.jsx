@@ -48,6 +48,12 @@ const AddListing = () => {
     toast({ title: "Listing created successfully", status: "success" });
   };
 
+  const isValidPhoneNumber = (phoneNumber) => {
+    const phoneRegex = /^\d{10}$/; // Regular expression for a 10-digit phone number
+
+    return phoneRegex.test(phoneNumber);
+  };
+
   return (
     <Box
       w={{ base: "80%", md: "40%" }}
@@ -104,7 +110,8 @@ const AddListing = () => {
             date.length < 1 ||
             time.length < 1 ||
             phoneNumber.length < 1 ||
-            isLoading
+            isLoading ||
+            !isValidPhoneNumber(phoneNumber)
           }
           variantColor="teal"
           variant="solid"
