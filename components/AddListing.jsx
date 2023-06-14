@@ -54,6 +54,7 @@ const AddListing = () => {
       margin={"0 auto"}
       display="block"
       mt={5}
+      minH={"80vh"}
     >
       <Stack direction="column">
         <Input
