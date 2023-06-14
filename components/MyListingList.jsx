@@ -305,7 +305,7 @@ const NoListingsSkeleton = ({ user }) => {
           fontWeight="bold"
           pb="1rem"
         >
-          You haven't created any listings yet.
+          You haven&#39;t created any listings yet.
         </Text>
 
         <Button colorScheme="teal" onClick={handleCreateListing}>
