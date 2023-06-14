@@ -1,0 +1,11 @@
+0000000000000000000000000000000000000000 41244cca2f2420936e968e914c2c4f4cc4f47efd BhinTatta <bhintatta01@gmail.com> 1686333873 +0530	commit (initial): added the date tabs option in mainpae
+41244cca2f2420936e968e914c2c4f4cc4f47efd 0cd45dc8504a01bf4fb74da96b9cdb59c9f85a6f BhinTatta <bhintatta01@gmail.com> 1686336306 +0530	checkout: moving from master to pro-feat
+0cd45dc8504a01bf4fb74da96b9cdb59c9f85a6f 41244cca2f2420936e968e914c2c4f4cc4f47efd BhinTatta <bhintatta01@gmail.com> 1686336462 +0530	checkout: moving from pro-feat to master
+41244cca2f2420936e968e914c2c4f4cc4f47efd 964e6ea06cb1e683126795d3b8a90b4827b8209f BhinTatta <bhintatta01@gmail.com> 1686336570 +0530	commit: Cab-listing text
+964e6ea06cb1e683126795d3b8a90b4827b8209f 41244cca2f2420936e968e914c2c4f4cc4f47efd BhinTatta <bhintatta01@gmail.com> 1686336782 +0530	checkout: moving from master to remotes/origin/master
+41244cca2f2420936e968e914c2c4f4cc4f47efd 4985646ae3208a6f34feb3365a5183b1bfd294f4 BhinTatta <bhintatta01@gmail.com> 1686336912 +0530	commit: text change to cab-listing
+4985646ae3208a6f34feb3365a5183b1bfd294f4 88db909057d42eb6f413953f92318b047cb6927d BhinTatta <bhintatta01@gmail.com> 1686519181 +0530	commit: new navbar and mail button
+88db909057d42eb6f413953f92318b047cb6927d 964e6ea06cb1e683126795d3b8a90b4827b8209f BhinTatta <bhintatta01@gmail.com> 1686519191 +0530	checkout: moving from 88db909057d42eb6f413953f92318b047cb6927d to remotes/origin/master
+964e6ea06cb1e683126795d3b8a90b4827b8209f 964e6ea06cb1e683126795d3b8a90b4827b8209f BhinTatta <bhintatta01@gmail.com> 1686519400 +0530	checkout: moving from 964e6ea06cb1e683126795d3b8a90b4827b8209f to master
+964e6ea06cb1e683126795d3b8a90b4827b8209f 88db909057d42eb6f413953f92318b047cb6927d BhinTatta <bhintatta01@gmail.com> 1686519856 +0530	checkout: moving from master to mvp
+88db909057d42eb6f413953f92318b047cb6927d 05ce9f95e0e2f4404c38f8d9d0f25b33fd44ffd2 BhinTatta <bhintatta01@gmail.com> 1686520702 +0530	commit: Build error : Uppercase function name
