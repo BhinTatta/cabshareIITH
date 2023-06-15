@@ -29,7 +29,6 @@ import {
   where,
 } from "firebase/firestore";
 import { db } from "../firebase";
-import { FaTrash } from "react-icons/fa";
 import { useRouter } from "next/router";
 import SkeletonGrid from "./SkeletonGrid";
 const ListingList = () => {
@@ -73,11 +72,6 @@ const ListingList = () => {
       setListings(arr);
       setLoading(false);
     });
-  };
-
-  const handleCopyNumber = (phoneNumber) => {
-    navigator.clipboard.writeText(phoneNumber);
-    toast({ title: "Phone number copied to clipboard", status: "success" });
   };
 
   useEffect(() => {
