@@ -25,6 +25,7 @@ import { FaGoogle, FaMoon, FaSun, FaUser, FaBars } from "react-icons/fa";
 import { auth } from "../firebase";
 import useAuth from "../hooks/useAuth";
 import { useRouter } from "next/router";
+import SigninButton from "./SignInButton";
 
 export default function WithAction() {
   const { toggleColorMode, colorMode } = useColorMode();
@@ -168,13 +169,7 @@ export default function WithAction() {
                 </Menu>
               </>
             ) : (
-              <Button
-                leftIcon={<FaGoogle />}
-                onClick={handleAuth}
-                variant="outline"
-              >
-                Login
-              </Button>
+              <SigninButton />
             )}
           </Flex>
         </Flex>

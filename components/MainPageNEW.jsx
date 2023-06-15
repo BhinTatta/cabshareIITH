@@ -31,6 +31,8 @@ import {
 import { db } from "../firebase";
 import { useRouter } from "next/router";
 import SkeletonGrid from "./SkeletonGrid";
+import SigninButton from "./SignInButton";
+
 const ListingList = () => {
   const [loading, setLoading] = useState(true);
   const [listings, setListings] = useState([]);
@@ -276,13 +278,6 @@ const NoListingsSkeleton = ({ user }) => {
     router.push("/createListing");
   };
 
-  const handleSingin = () => {
-    toast({
-      title: "Use the LogIn button from navbar pweaese 🥺👉👈",
-      status: "info",
-    });
-  };
-
   return (
     <>
       <Box textAlign="center" p={8}>
@@ -299,9 +294,7 @@ const NoListingsSkeleton = ({ user }) => {
         </Text>
         {!user ? (
           <>
-            <Button colorScheme="teal" onClick={handleSingin}>
-              Sign In
-            </Button>
+            <SigninButton />
           </>
         ) : (
           <Button colorScheme="teal" onClick={handleCreateListing}>
