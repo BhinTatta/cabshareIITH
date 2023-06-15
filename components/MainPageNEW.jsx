@@ -31,7 +31,7 @@ import {
 import { db } from "../firebase";
 import { useRouter } from "next/router";
 import SkeletonGrid from "./SkeletonGrid";
-import SigninButton from "./SignInButton";
+import SigninButton from "./LoginButton";
 
 const ListingList = () => {
   const [loading, setLoading] = useState(true);
@@ -47,7 +47,7 @@ const ListingList = () => {
       setIsMobile(window.matchMedia("(max-width: 768px)").matches);
     };
 
-    // Initial check
+    // Initial check {dummy text}
     handleResize();
 
     // Event listener for screen size changes

@@ -11,7 +11,7 @@ const SigninButton = () => {
     const provider = new GoogleAuthProvider();
     signInWithPopup(auth, provider)
       .then((result) => {
-        // Handle the authentication success
+        // Handle the authentication success {dummy text}
         const credential = GoogleAuthProvider.credentialFromResult(result);
         const token = credential.accessToken;
         const user = result.user;

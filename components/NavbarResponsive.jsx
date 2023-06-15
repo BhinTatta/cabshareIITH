@@ -25,7 +25,7 @@ import { FaGoogle, FaMoon, FaSun, FaUser, FaBars } from "react-icons/fa";
 import { auth } from "../firebase";
 import useAuth from "../hooks/useAuth";
 import { useRouter } from "next/router";
-import SigninButton from "./SignInButton";
+import SigninButton from "./LoginButton";
 
 export default function WithAction() {
   const { toggleColorMode, colorMode } = useColorMode();
@@ -35,7 +35,7 @@ export default function WithAction() {
 
   const [user, setUser] = useState(null);
   useEffect(() => {
-    // Get the authenticated user's data from Firebase Authentication
+    // Get the authenticated user's data from Firebase Authentication https://cabshareiith.vercel.app/
     const unsubscribe = auth.onAuthStateChanged((currentUser) => {
       setUser(currentUser);
     });
